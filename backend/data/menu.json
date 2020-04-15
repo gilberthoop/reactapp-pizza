@@ -1,0 +1,116 @@
+[
+  {
+    "id": "meat-lovers",
+    "name": "Meat Lovers",
+    "crust": ["Thin", "Thick"],
+    "size": ["Small", "Medium", "Large"],
+    "cost": {
+      "small": 12.0,
+      "medium": 16.0,
+      "large": 20.0
+    },
+    "toppings": [
+      "pepperoni",
+      "sausage",
+      "ham",
+      "ground beef",
+      "onions",
+      "green peppers",
+      "mushroom",
+      "black olives",
+      "cheese"
+    ]
+  },
+  {
+    "id": "bbq-chicken",
+    "name": "BBQ Chicken",
+    "crust": ["Thin", "Thick"],
+    "size": ["Small", "Medium", "Large"],
+    "cost": {
+      "small": 12.0,
+      "medium": 16.0,
+      "large": 20.0
+    },
+    "toppings": [
+      "chicken",
+      "bacon",
+      "onions",
+      "green peppers",
+      "cheddar cheese"
+    ]
+  },
+  {
+    "id": "vegetarian",
+    "name": "Vegetarian",
+    "crust": ["Thin", "Thick"],
+    "size": ["Small", "Medium", "Large"],
+    "cost": {
+      "small": 7.0,
+      "medium": 11.0,
+      "large": 14.0
+    },
+    "toppings": ["green peppers", "onion", "tomatoes", "mushrooms", "olives"]
+  },
+  {
+    "id": "canadian-pizza",
+    "name": "Canadian Pizza",
+    "crust": ["Thin", "Thick"],
+    "size": ["Small", "Medium", "Large"],
+    "cost": {
+      "small": 10.0,
+      "medium": 13.0,
+      "large": 16.0
+    },
+    "toppings": ["pepperoni", "mushrooms", "bacon", "mozzarella cheese"]
+  },
+  {
+    "id": "deluxe",
+    "name": "Deluxe",
+    "crust": ["Thin", "Thick"],
+    "size": ["Small", "Medium", "Large"],
+    "cost": {
+      "small": 11.0,
+      "medium": 15.0,
+      "large": 18.0
+    },
+    "toppings": [
+      "pepperoni",
+      "Italian sausage",
+      "green peppers",
+      "mushrooms",
+      "onions",
+      "cheese"
+    ]
+  },
+  {
+    "id": "hawaiian",
+    "name": "Hawaiian",
+    "crust": ["Thin", "Thick"],
+    "size": ["Small", "Medium", "Large"],
+    "cost": {
+      "small": 9.0,
+      "medium": 12.0,
+      "large": 15.0
+    },
+    "toppings": ["pineapples", "ham", "cheese"]
+  },
+  {
+    "id": "philly-steak",
+    "name": "Philly Steak",
+    "crust": ["Thin", "Thick"],
+    "size": ["Small", "Medium", "Large"],
+    "cost": {
+      "small": 13.0,
+      "medium": 17.0,
+      "large": 21.0
+    },
+    "toppings": [
+      "steak",
+      "Provolone cheese",
+      "onions",
+      " green peppers",
+      "mushrooms",
+      "American cheese"
+    ]
+  }
+]
