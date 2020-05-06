@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "version": "0.0.0",
+  "homepage": "http://gilberthoop.github.io/willpizzeria",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"
@@ -18,5 +19,8 @@
     "morgan": "~1.9.1",
     "react-router-dom": "^5.1.2",
     "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
