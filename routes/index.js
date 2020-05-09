@@ -36,6 +36,22 @@ router.get('/api/menu', (req, res, next) => {
 
 
 /*
+ *  @desc:    Retrieve all orders in json format
+ *  @param:   API endpoint and callback   
+ */
+router.get('/api/orders', (req, res) => {
+  Order.find({}, (err, order) => {
+    if (err) { return res.status(500).json({ status: "Error retrieving orders" }); }
+
+    // Calculate the total price of the order
+    let total = PriceCalculator.getTotalPrice(order);
+
+    res.json({ order, total });
+  });
+});
+
+
+/*
  *  @desc:    Submit order and save to database
  *  @param:   API order submit endpoint, input validation, and callbacks 
  *  @return:  
@@ -98,22 +114,6 @@ router.post(
   })
     .populate('customer', 'name');
 
-});
-
-
-/*
- *  @desc:    Retrieve all orders in json format
- *  @param:   API endpoint and callback   
- */
-router.get('/api/orders', (req, res) => {
-  Order.find({}, (err, order) => {
-    if (err) { return res.status(500).json({ status: "Error retrieving orders" }); }
-
-    // Calculate the total price of the order
-    let total = PriceCalculator.getTotalPrice(order);
-
-    res.json({ order, total });
-  });
 });
 
 
