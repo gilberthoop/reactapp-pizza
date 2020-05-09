@@ -19,7 +19,6 @@ mongoose.connect('mongodb://localhost/pizza')
 /*
  *  @desc:    Display the index page    
  *  @param:   Index route and callback   
- *  @return:  HTTP Response for the index page
  */
 router.get("/", (req, res) => {
   res.send("Pizza order app :)");
