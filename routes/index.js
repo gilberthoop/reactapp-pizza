@@ -37,7 +37,7 @@ router.get('/api/menu', (req, res) => {
 
 /*
  *  @desc:    Retrieve all orders in json format
- *  @param:   API endpoint and callback   
+ *  @param:    API endpoint and callback   
  */
 router.get('/api/orders', (req, res) => {
   Order.find({}, (err, order) => {
@@ -45,6 +45,8 @@ router.get('/api/orders', (req, res) => {
 
     // Calculate the total price of the order
     let total = PriceCalculator.getTotalPrice(order);
+
+    console.log('total price:', total);
 
     res.json({ order, total });
   });
