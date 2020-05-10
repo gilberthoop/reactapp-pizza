@@ -30,7 +30,7 @@ router.get("/", (req, res) => {
  *  @param:   Route and Callback
  *  @return:  JSON representation of menu data
  */
-router.get('/api/menu', (req, res, next) => {
+router.get('/api/menu', (req, res) => {
   res.json(menu);
 });
 
