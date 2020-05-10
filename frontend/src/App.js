@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import axios from 'axios';
 import 'semantic-ui-css/semantic.min.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/dom/NavBar';
 import MenuList from './components/MenuList';
 import Orders from './components/Orders';
 import Checkout from './components/Checkout';
