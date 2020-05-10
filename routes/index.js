@@ -11,7 +11,8 @@ const CUSTOMER_ID = "5eadaca1787e9f2d3c288a4a";
 
 
 // Initialize database connection
-mongoose.connect('mongodb://localhost/pizza')
+const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/pizza';
+mongoose.connect(dbURL)
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log('Could not connect to MongoDB'));
 
