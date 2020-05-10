@@ -24,21 +24,9 @@ class App extends React.Component {
   }
 
 
-  fetchOrders() {
-    axios.get('/api/orders')
-      .then(response => {
-        console.log(response.data);
-      })
-      .catch(error => console.log(error));
-  }
-
-
   componentDidMount() {
     // Retrieve all menu information
     this.fetchMenu();
-
-    // Retrieve all the orders from the database
-    this.fetchOrders();
   }
 
 
