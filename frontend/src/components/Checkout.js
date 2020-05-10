@@ -126,7 +126,7 @@ class Checkout extends React.Component {
                 </form>
 
                 <div className="ui piled segment">
-                    <p>Please note that this app is only for a testing; not a real app.</p>
+                    <p>Please note that this app is only for personal project purpose; not a real app.</p>
                 </div>
                 <br /><br /><br />
             </div>
