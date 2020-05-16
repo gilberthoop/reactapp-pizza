@@ -74,11 +74,22 @@ class Orders extends React.Component {
 
 
     render() {
-        if (!Array.isArray(this.state.orders) || !this.state.orders.length) {
+        if (!this.state.orders.length) {
             return (
                 <div className="ui text container">
-                    <div className="ui big warning message">
-                        <p>Your order queue is currently empty.</p>
+                <div className="ui big warning message">
+                    <p>Your order queue is currently empty.</p>
+                </div>
+            </div>
+            )
+        }
+
+        if (!Array.isArray(this.state.orders)) {
+            return (
+                
+                <div className="ui text container">
+                    <div>
+                        <p>Loading...</p>
                     </div>
                 </div>
             )
@@ -90,6 +101,7 @@ class Orders extends React.Component {
                     <img className="ui image" src="https://images.vexels.com/media/users/3/157205/isolated/preview/5dd5e3530e81a4d5afdd883d27d43de2-black-and-white-pizza-icon-by-vexels.png" alt="" />
                     <div className="content">Your Orders</div>
                 </h2>
+                <br/>
                 <div className="ui two column stackable grid container">
                     {this.state.orders.map(item => {
                         return (

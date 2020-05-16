@@ -1,10 +1,65 @@
 [
   {
+    "id": "pepperoni",
+    "name": "Pepperoni",
+    "image": "https://www.moulinex-me.com/medias/?context=bWFzdGVyfHJvb3R8MTQzNTExfGltYWdlL2pwZWd8aDM2L2g1Mi8xMzA5NzI3MzI2MjExMC5qcGd8N2MxZDhmNmI5ZTgzZDZlZWQyZGQ4YjFlZjUyNDlkMTExYjdkZDdlZmFkY2I0N2NmNjljOGViNmExZjIyMDU4Yw",
+    "crust": [
+      "Thin",
+      "Regular",
+      "Thick"
+    ],
+    "size": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "cost": {
+      "small": 12.0,
+      "medium": 14.25,
+      "large": 16.75
+    },
+    "toppings": [
+      "organic tomato sauce",
+      "pepperoni",
+      "mozzarella"
+    ]
+  },
+  {
+    "id": "newyork-deli",
+    "name": "New York Deli",
+    "image": "https://d1ralsognjng37.cloudfront.net/e00a5dbe-004c-4b0e-b277-aee09c4dc58a.jpeg",
+    "crust": [
+      "Thin",
+      "Regular",
+      "Thick"
+    ],
+    "size": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "cost": {
+      "small": 14.00,
+      "medium": 17.00,
+      "large": 21.00
+    },
+    "toppings": [
+      "organic tomato sauce",
+      "pepperoni",
+      "Genoa salami",
+      "bacon",
+      "Canadian ham",
+      "spicy Italian sausage",
+      "mozzarella + cheddar"
+    ]
+  },
+  {
     "id": "meat-lovers",
     "name": "Meat Lovers",
     "image": "https://i.pinimg.com/originals/3b/8e/b6/3b8eb6a7dee5fe35fad8fdd37a784b2c.jpg",
     "crust": [
       "Thin",
+      "Regular",
       "Thick"
     ],
     "size": [
@@ -35,6 +90,7 @@
     "image": "https://recipes-secure-graphics.grocerywebsite.com/0_GraphicsRecipes/8164_4k.jpg",
     "crust": [
       "Thin",
+      "Regular",
       "Thick"
     ],
     "size": [
@@ -61,6 +117,7 @@
     "image": "https://d1bjorv296jxfn.cloudfront.net/s3fs-public/styles/recipes_header_image/public/recipe-images/sargento/772-Fresh-Vegetable-Pizza.jpg?itok=JfR3lFp_",
     "crust": [
       "Thin",
+      "Regular",
       "Thick"
     ],
     "size": [
@@ -87,6 +144,7 @@
     "image": "https://thenypost.files.wordpress.com/2019/10/pizza-1.jpg?quality=80&strip=all&w=618&h=410&crop=1",
     "crust": [
       "Thin",
+      "Regular",
       "Thick"
     ],
     "size": [
@@ -112,6 +170,7 @@
     "image": "https://storage-cube.quebecormedia.com/v1/cl_prod/canadian_living/bbd3e23858ce9459564e706b39900536355b72d8/deluxe-pizza.jpg",
     "crust": [
       "Thin",
+      "Regular",
       "Thick"
     ],
     "size": [
@@ -139,6 +198,7 @@
     "image": "https://i.guim.co.uk/img/media/5c235055a8b803a634b5d1eb6649a42c03393b8a/0_182_5472_3283/master/5472.jpg?width=700&quality=85&auto=format&fit=max&s=8ce0dc0f310492f5a293351cf27dfbe1",
     "crust": [
       "Thin",
+      "Regular",
       "Thick"
     ],
     "size": [
@@ -163,6 +223,7 @@
     "image": "https://cullyskitchen.com/wp-content/uploads/2016/01/Philly-Cheesesteaak-Pizza-Recipe-1-800x534.jpg",
     "crust": [
       "Thin",
+      "Regular",
       "Thick"
     ],
     "size": [
@@ -182,6 +243,35 @@
       " green peppers",
       "mushrooms",
       "American cheese"
+    ]
+  },
+  {
+    "id": "pesto-chicken",
+    "name": "Pesto Chicken",
+    "image": "https://theblondcook.com/wp-content/uploads/2013/08/pesto-chicken-pizza-2.jpg",
+    "crust": [
+      "Thin",
+      "Regular",
+      "Thick"
+    ],
+    "size": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+    "cost": {
+      "small": 14.5,
+      "medium": 18.0,
+      "large": 22.0
+    },
+    "toppings": [
+      "pesto sauce",
+      "grilled chicken",
+      "fire-roasted tomatoes",
+      "red peppers",
+      "caramelized onions",
+      "roasted garlic",
+      "formaggio blend + mozzarella"
     ]
   }
 ]

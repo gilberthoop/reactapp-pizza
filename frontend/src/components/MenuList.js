@@ -8,6 +8,7 @@ function MenuList({ menu }) {
                 <img className="ui image" src="https://images.vexels.com/media/users/3/157205/isolated/preview/5dd5e3530e81a4d5afdd883d27d43de2-black-and-white-pizza-icon-by-vexels.png" alt="" />
                 <div className="content">MenuList</div>
             </h2>
+            <br />
             <div className="ui two column stackable grid container">
                 {menu.map(menuItem => {
                     return (
