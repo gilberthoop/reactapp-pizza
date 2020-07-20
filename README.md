@@ -1,6 +1,12 @@
 # willpizzeria
 A React-integrated app for my existing assignment in my Node course at BCIT.
 
+Libraries and Frameworks used:
+* **Node**
+* **Express**
+* **React**
+* **Axios**
+
 
 # Getting started
 The following are the requirements to run and test the app.
